@@ -65,15 +65,6 @@ Provides AQI category:
   
 Interactive and user-friendly interface
 
-# Project Structure
-MAIN_PROJECTS/
-│
-├── model.py            # Model training
-├── app.py              # User interface (Gradio)
-├── air_model.keras     # Trained model
-├── scaler_X.pkl        # Input scaler
-├── scaler_y.pkl        # Output scaler
-├── label.pkl           # Label encoder
 
 # Key Concepts Used
 - Machine Learning (Supervised Learning)
