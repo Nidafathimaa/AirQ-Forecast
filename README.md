@@ -27,28 +27,6 @@ Data Characteristics:
 - Includes multiple cities
 - Used for supervised learning
 
-# Project Workflow
-1.Data Preprocessing
- - Handle missing values
- - Encode categorical data (city)
- - Scale input and output features
-2.Model Building
- - LSTM (Long Short-Term Memory) neural network
- - Suitable for time-based data
-3.Model Training
- - Trained on historical air quality data
- - Optimized using loss function (MSE)
-4.Model Saving
- - Saved as .keras file
-- Scalers and encoders stored using pickle
-5.Prediction System
- - Takes user input (city + date)
- - Applies preprocessing
- - Generates predictions
-6.User Interface
- - Built using Gradio
- - Displays results in readable format
-
 # Features of the Application
 Predicts:
 - AQI (Air Quality Index)
